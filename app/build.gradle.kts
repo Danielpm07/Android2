@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.edadcanina"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.edadcanina"
@@ -28,6 +28,11 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion = "34.0.0"
+
+    buildFeatures{
+        dataBinding = true
     }
 }
 
